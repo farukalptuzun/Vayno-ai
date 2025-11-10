@@ -24,12 +24,14 @@ Vayno AI LLM, kişiselleştirilmiş fitness ve beslenme asistanı sunan, Claude 
 - **Claude 3.5 Sonnet & OpenAI GPT-4**: LLM tabanlı öneri ve analizler
 - **Docker**: Kolay dağıtım ve izole çalışma ortamı
 - **Pytest**: Otomatik testler ve entegrasyon
+- 
 
 ## Ana Modüller ve API Endpointleri
 
 ### 1. Yemek Planı Modülü
 - `POST /api/meal-plan/generate` : Kişiye özel yemek planı oluşturur
 - `GET /api/meal-plan/health` : Servis sağlık durumu
+- 
 
 ### 2. Malzemelerden Yemek Tarifi ve Görsel Oluşturma Modülü
 - `POST /api/recipes/generate` : Kişinin elinde bulunan malzemelere göre yemek tarifi oluşturur
@@ -37,6 +39,7 @@ Vayno AI LLM, kişiselleştirilmiş fitness ve beslenme asistanı sunan, Claude 
 - `POST /api/recipes/favorite/{recipe_id} ` : Oluşan yemeği favorilerine ekleyebilir.
 - `GET /api/recipe/favorite/me` : Kullanının favorilerine aldığı yemekler gösterilir
 - `GET /api/recipes/health` : Servis sağlık durumu
+- 
 
 ### 3. Egzersiz Planı Modülü
 - `POST /api/workout-plan/generate` : Kişiye özel egzersiz planı oluşturur
